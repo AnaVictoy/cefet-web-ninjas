@@ -1,0 +1,59 @@
+body{
+  margin:20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px double darkblue;
+  border-radius: 5px;
+}
+p{
+  text-align: justify;
+}
+#logo {
+  width: 200px;
+}
+img:not(#logo){
+  border: 5px double darkblue;
+  border-radius: 5px;
+}
+h1,h2{
+  font-family: 'Srisakdi', cursive;
+  color: darkblue;
+  text-align: center;
+
+}
+a:link{
+  color:red;
+}
+a:visited{
+  text-decoration: none;
+  color:green;
+}
+a:hover{
+  color: purple;
+  font-weight: bold;
+}
+a:active{
+font-weight: bold;
+color:black;
+}
+.nota{
+   opacity: 0.4;
+}
+a:not([href*="curiosidades.html"]){
+  background-image:url("img/globo.png");
+  background-repeat:no-repeat;
+  padding-left:18px;
+}
+p strong{
+  font-size: 28px;
+    color:white;
+    background-color: darkblue;
+}
